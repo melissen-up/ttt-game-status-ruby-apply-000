@@ -53,7 +53,7 @@ def winner(board)
   winner = won?(board)
   if winner == FALSE
     return nil
-  if board[winner[0]] 
   end
-end
+  return board[winner[0]] 
+  end
 end 
