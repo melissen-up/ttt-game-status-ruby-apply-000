@@ -30,5 +30,5 @@ def full?(board)
   elsif
     FALSE 
   end
-  end
+end
 end
