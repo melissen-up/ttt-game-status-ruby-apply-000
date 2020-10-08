@@ -26,5 +26,8 @@ end
 def full?(board)
   full_board = board.all? do |i|
   i == "X" || "O"
-end
+  end
+  incomplete_board = board.all? do |i|
+    !(i == "X" || "O")
+  end
 end
