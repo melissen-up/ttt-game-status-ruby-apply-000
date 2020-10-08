@@ -27,7 +27,7 @@ def full?(board)
   if board.all? do |i|
     i == "X" || "O"
     return TRUE
-    else
+  else
     return FALSE 
     end
   end
