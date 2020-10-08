@@ -25,6 +25,7 @@ end
 
 def full?(board)
   board.all? do |i|
-  i == "X" || "O"
+  i == "" || " "
+  FALSE
   end
 end
