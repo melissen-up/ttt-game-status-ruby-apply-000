@@ -51,8 +51,8 @@ end
 
 def winner(board)
   if won?(board)
-    big_winner == won?(board)
-    return "#{board[big_winner[0]]}"
+    winner == won?(board)
+    return "#{board[winner[0]]}"
   else
     return nil
   end
